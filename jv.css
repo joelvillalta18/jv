@@ -1,0 +1,26 @@
+.banner{
+position: absolute;
+top: 0;
+right: 0;
+width: 450px;
+height: 100%;
+background: linear-gradient(to right,#0ef,#c800ff);
+clip-path: polygon(0 0,100% 0, 100% 100%,6% 100%);
+padding-right: 70px;
+text-align: right;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+.wel_text{
+    font-size: 40px;
+margin-top: -50px;
+line-height: 50px;
+}
+.para{
+    margin-top: 10px;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 1px;
+}
